@@ -3,8 +3,8 @@ perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří 
 published: "21. dubna 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
-styles: ["https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol.css"]
-libraries: ["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", "https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol-debug.js"]
+styles: ["https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css"]
+libraries: ["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", "https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"]
 options: [noheader] #wide, noheader (, nopic)
 ---
 <left>
