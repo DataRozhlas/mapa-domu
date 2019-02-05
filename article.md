@@ -3,8 +3,8 @@ perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří 
 published: "21. dubna 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
-styles: []
-libraries: [] #jquery, d3, highcharts, datatables
+styles: ["https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol.css"]
+libraries: ["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", "https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol-debug.js"]
 options: [noheader] #wide, noheader (, nopic)
 ---
 <left>
@@ -21,7 +21,18 @@ Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 oso
 
 Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
 
-<wide><i>Pokud vás zajímá, kolik lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte posuvníkem nahoře.</i></wide>
+<wide>
+<div id="mapdiv">
+	<div id="map" class="map"></div>
+	 <form action="?" id='frm-geocode'>
+	  <label for="inp-geocode">Najít adresu</label>
+	  <div class="inputs">
+	    <input type="text" id="inp-geocode" placeholder="Bruntál">
+	    <input type="submit" value="Najít">
+	  </div>
+	</form>
+</div>
+</wide>
 
 ## Data na prodej
 <right>
