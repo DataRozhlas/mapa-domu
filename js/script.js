@@ -4,9 +4,10 @@ import "./targetblank"; // pro otvírání odkazů v novém okně
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2FtaXpkYXRjeiIsImEiOiJjam55a2V6NHgwY2N5M2twY3BqN3p0M2tqIn0.Neq0yohOIiIanf5T8FYhWQ';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v9',
+    style: 'map_styl/style.json',
     zoom: 7,
     maxZoom: 15,
+    pitch: 30,
     attributionControl: false,
     center: [15.3350758, 49.7417517]
 });
@@ -15,9 +16,10 @@ map.addControl(new mapboxgl.AttributionControl({
     compact: true,
     customAttribution: 'obrazový podkres <a target="_blank" href="https://samizdat.cz">Samizdat</a>, data <a target="_blank" href="http://vdp.cuzk.cz/">ČÚZK</a>'
 }));
- 
+
+
 map.on('load', function () {
-    map.addLayer({
+    map.addLayer({ // pridat vrstvu domu
         "id": "barakygeojson",
         "type": "fill",
         "source": {
@@ -26,10 +28,23 @@ map.on('load', function () {
         },
         "source-layer": "barakygeojson",
         "paint": {
-            "fill-color": "red"
+            "fill-color": "black"
         }
     });
-});
+
+    map.addLayer({
+        "id": "labels",
+        "source": {
+            "tiles": [
+            "http://interaktivni.rozhlas.cz/tiles/ton_l2/{z}/{x}/{y}.png",
+        ],
+        "type": "raster",
+        "tileSize": 256
+        },
+        "type": "raster"
+        });
+    });
+
 
 // geocoder
 var form = document.getElementById("frm-geocode");
