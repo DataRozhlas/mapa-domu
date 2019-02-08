@@ -36,7 +36,7 @@ map.on('load', function () {
         "id": "labels",
         "source": {
             "tiles": [
-            "http://interaktivni.rozhlas.cz/tiles/ton_l2/{z}/{x}/{y}.png",
+            "https://interaktivni.rozhlas.cz/tiles/ton_l2/{z}/{x}/{y}.png",
         ],
         "type": "raster",
         "tileSize": 256
