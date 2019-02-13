@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"></script>
+
+<style>
+    #mapdiv {
+        width: 100%;
+        height: 100vh;
+    }
+    #map {
+    height: 100vh;
+    width: 100%;
+}
+
+
+</style>
+
+<div id="map" class="map"></div>
+
+<script>
+// mapa
+var map = new mapboxgl.Map({
+  container: "map",
+  style: "https://data.irozhlas.cz/mapa-domu/map_styl/blank.json",
+  zoom: 13,
+  maxZoom: 15,
+  pitch: 0,
+  attributionControl: false,
+  //center: [15.3350758, 49.7417517],
+  center: [14.4266722, 50.0814917], // Václavák
+});
+
+map.on("load", () => {
+  map.addLayer({ // pridat vrstvu domu
+    id: "barakygeojson",
+    type: "fill",
+    source: {
+      type: "vector",
+      tiles: ["https://data.irozhlas.cz/mapa-domu/tiles/{z}/{x}/{y}.pbf"],
+    },
+    "source-layer": "barakygeojson",
+    paint: {
+      // "fill-color": "black",
+      "fill-opacity": [
+        "interpolate",
+        [
+          "linear",
+        ],
+        [
+          "zoom",
+        ],
+        10,
+        0.5,
+        10.1,
+        1,
+      ],
+      "fill-outline-color": "hsl(0, 0%, 52%)",
+    },
+  });
+});
+
+
+</script>
