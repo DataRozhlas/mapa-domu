@@ -1,4 +1,4 @@
-title: "Mapa budov v Česku: náhled"
+title: "Čtyři milióny staveb. Podívejte se na mapu všech budov v Česku"
 perex: "lorem ipsum"
 published: "21. dubna 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
@@ -7,17 +7,15 @@ styles: ["https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css"]
 libraries: ["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", "https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"]
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
-<wide>
+</div>
 <div id="mapdiv">
-	<div id="map" class="map"></div>
-	 <form action="?" id='frm-geocode'>
-	  <label for="inp-geocode">Najít adresu</label>
+<form action="?" id='frm-geocode'>
 	  <div class="inputs">
-	    <input type="text" id="inp-geocode" placeholder="Bruntál">
-	    <input type="submit" value="Najít">
+	    <input type="text" id="inp-geocode" placeholder="Zadejte město či adresu...">
+	    <input type="submit" id="inp-btn" value="Najít">
 	  </div>
 	</form>
-</div>
+	<div id="map" class="map"></div>
 </wide>
 
 ## Data na prodej
