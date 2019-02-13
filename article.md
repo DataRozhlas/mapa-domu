@@ -1,5 +1,5 @@
 title: "Čtyři milióny staveb. Podívejte se na mapu všech budov v Česku"
-perex: "Na jednoho obyvatele připadají v Česku více než dvě stavby. Projděte si v unikátní mapě, jak zástavba tvoří tvář země, jak krajina ovlivňuje růst vesnic i jak historická města změnila sídlištní zástavba. Vybrané části mapy komentuje architekt Adam Gebrian."
+perex: "Na jednoho obyvatele připadají v Česku více než dvě stavby. Projděte si v unikátní mapě, jak zástavba tvoří tvář země, jak krajina ovlivňuje růst vesnic i jak sídliště zasáhla do historické podoby měst. Vybrané části mapy komentuje architekt Adam Gebrian."
 published: "21. dubna 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
