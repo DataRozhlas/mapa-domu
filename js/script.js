@@ -4,9 +4,9 @@ import "./targetblank"; // pro otvírání odkazů v novém okně
 const map = new mapboxgl.Map({
   container: "map",
   style: "https://data.irozhlas.cz/mapa-domu/map_styl/style.json",
-  zoom: 12,
+  zoom: 13,
   maxZoom: 15,
-  pitch: 30,
+  pitch: 0,
   attributionControl: false,
   //center: [15.3350758, 49.7417517],
   center: [14.4266722, 50.0814917], // Václavák
@@ -16,6 +16,13 @@ map.addControl(new mapboxgl.AttributionControl({
   compact: true,
   customAttribution: "obrazový podkres <a target=\"_blank\" href=\"https://samizdat.cz\">Samizdat</a>, data <a target=\"_blank\" href=\"http://vdp.cuzk.cz/\">ČÚZK</a>",
 }));
+
+map.scrollZoom.disable(); // zoom myší teprve až po interakci s mapou
+map.on('click', function(e) {
+  map.scrollZoom.enable();
+});
+
+map.addControl(new mapboxgl.NavigationControl(), 'top-left'); // buttonky pro zoom a rotaci
 
 
 map.on("load", () => {
