@@ -23,7 +23,11 @@ V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna
 
 Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný [podobnou mapou Spojených států](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) vychází z českého katastru nemovitostí, který informace o budovách existuje.
 
-Výsledná mapě se architektonické praxi říká _Schwarzplan_. 
+Výsledná mapa připomíná typ nákresů, kterým se v architektonické praxi říká _Schwarzplan_. Jsou na nich zakreslené pouze budovy a protože přehledně ukazují strukturu osídlení, využívají se k zobrazování nových návrhů ve stávajících územích. Naše verze _Schwarzplanu_ zahrnuje celé Česko a přidává mapové podklady pro lepší orientaci.
+
+Z mapy lze vyčíst mnohé: to, jak se liší vesnice podle toho, zda se utvořily okolo centrální návsi - _okrouhlice_ - nebo podél cesty, která jí prochází - _ulicovka_, to, jak k okrajům měst postupně přilepovala sídliště, nebo rozvrstvení obyvatel - od větších obcí na Jižní Moravě přes velký počet malých sídel na Vysočině.
+
+„Za srovnání stojí vždy starší kompaktní formy osídlení s těmi novými, kde je všude daleko. Zatímco u těch starých většinou rozpoznáte ulice a náměstí, u nové výstavby vidíte rozsypané zrní a vůbec nejste schopen číst, jak jsou utvářena veřejná prostranství. Chybí jim tvar a charakter,“ říká architekt Pavel Hnilička.
 
 </div><div>
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/cesko_celek_190213-135401_zlo.png" width="100%">

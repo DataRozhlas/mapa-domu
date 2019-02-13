@@ -235,7 +235,9 @@ Přes čtyři milióny staveb. Podívejte se na mapu všech budov v Česku
 <h1 id="-esko-zastav-n-">Česko zastavěné</h1>
 <p>V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna budova. Zemi pokrývají přes čtyři milióny staveb. Patří mezi ně hypermarkety, sklady, rodinné domy, paneláky i kůlny a zahradní chatky. Dělí si je celkem 6 258 obcí.</p>
 <p>Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný <a href="https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html">podobnou mapou Spojených států</a> vychází z českého katastru nemovitostí, který informace o budovách existuje.</p>
-<p>Výsledná mapě se architektonické praxi říká <em>Schwarzplan</em>. </p>
+<p>Výsledná mapa připomíná typ nákresů, kterým se v architektonické praxi říká <em>Schwarzplan</em>. Jsou na nich zakreslené pouze budovy a protože přehledně ukazují strukturu osídlení, využívají se k zobrazování nových návrhů ve stávajících územích. Naše verze <em>Schwarzplanu</em> zahrnuje celé Česko a přidává mapové podklady pro lepší orientaci.</p>
+<p>Z mapy lze vyčíst mnohé: to, jak se liší vesnice podle toho, zda se utvořily okolo centrální návsi - <em>okrouhlice</em> - nebo podél cesty, která jí prochází - <em>ulicovka</em>, to, jak k okrajům měst postupně přilepovala sídliště, nebo rozvrstvení obyvatel - od větších obcí na Jižní Moravě přes velký počet malých sídel na Vysočině.</p>
+<p>„Za srovnání stojí vždy starší kompaktní formy osídlení s těmi novými, kde je všude daleko. Zatímco u těch starých většinou rozpoznáte ulice a náměstí, u nové výstavby vidíte rozsypané zrní a vůbec nejste schopen číst, jak jsou utvářena veřejná prostranství. Chybí jim tvar a charakter,“ říká architekt Pavel Hnilička.</p>
 </div><div>
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/cesko_celek_190213-135401_zlo.png" width="100%">
 </div><div class="row-main row-main--narrow">
@@ -254,7 +256,118 @@ Přes čtyři milióny staveb. Podívejte se na mapu všech budov v Česku
 </div>
 <!--[[ZPRAVY_SNOWFALL_RELATED:ARTICLES]]-->
 </div>
-<script>!function(e){var t={};function o(n){if(t[n])return t[n].exports;var r=t[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,o),r.l=!0,r.exports}o.m=e,o.c=t,o.d=function(e,t,n){o.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(e,t){if(1&t&&(e=o(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)o.d(n,r,function(t){return e[t]}.bind(null,r));return n},o.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(t,"a",t),t},o.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},o.p="",o(o.s=0)}([function(e,t,o){"use strict";o.r(t);o(1);var n=new mapboxgl.Map({container:"map",style:"https://data.irozhlas.cz/mapa-domu/map_styl/style.json",zoom:13,maxZoom:15,pitch:0,attributionControl:!1,center:[14.4266722,50.0814917]});n.addControl(new mapboxgl.AttributionControl({compact:!0,customAttribution:'obrazový podkres <a target="_blank" href="https://samizdat.cz">Samizdat</a>, data <a target="_blank" href="http://vdp.cuzk.cz/">ČÚZK</a>'})),n.scrollZoom.disable(),n.on("click",function(e){n.scrollZoom.enable()}),n.addControl(new mapboxgl.NavigationControl,"top-left"),n.on("load",function(){n.addLayer({id:"barakygeojson",type:"fill",source:{type:"vector",tiles:["https://data.irozhlas.cz/mapa-domu/tiles/{z}/{x}/{y}.pbf"]},"source-layer":"barakygeojson",paint:{"fill-opacity":["interpolate",["linear"],["zoom"],10,.5,10.1,1],"fill-outline-color":"hsl(0, 0%, 52%)"}}),n.addLayer({id:"labels",source:{tiles:["https://interaktivni.rozhlas.cz/tiles/ton_l2/{z}/{x}/{y}.png"],type:"raster",tileSize:256},type:"raster"})}),$("#inp-geocode").on("focus input",function(){return $("#inp-geocode").css("border-color","black")}),document.getElementById("frm-geocode").onsubmit=function(e){e.preventDefault();var t=document.getElementById("inp-geocode").value;""===t?n.flyTo({center:[15.3350758,49.7417517],zoom:7}):$.get("https://api.mapy.cz/geocode?query=".concat(t),function(e){if(console.log($(e).find("item")),void 0!==$(e).find("item").attr("x")){var t=parseFloat($(e).find("item").attr("x")),o=parseFloat($(e).find("item").attr("y"));t<12||t>19||o<48||o>52?$("#inp-geocode").css("border-color","red"):n.flyTo({center:[t,o],zoom:12})}else $("#inp-geocode").css("border-color","red")},"xml")}},function(e,t){document.addEventListener("DOMContentLoaded",function(){var e=document.getElementsByTagName("a");Array.prototype.forEach.call(e,function(e){e.hostname!==window.location.hostname&&(e.target="_blank",e.rel="noopener noreferrer")})})}]);</script>
+<script>/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./js/script.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./js/script.js":
+/*!**********************!*\
+  !*** ./js/script.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./targetblank */ \"./js/targetblank.js\");\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_targetblank__WEBPACK_IMPORTED_MODULE_0__);\n // pro otvírání odkazů v novém okně\n// mapa\n\nvar map = new mapboxgl.Map({\n  container: \"map\",\n  style: \"https://data.irozhlas.cz/mapa-domu/map_styl/style.json\",\n  zoom: 13,\n  maxZoom: 15,\n  pitch: 0,\n  attributionControl: false,\n  //center: [15.3350758, 49.7417517],\n  center: [14.4266722, 50.0814917] // Václavák\n\n});\nmap.addControl(new mapboxgl.AttributionControl({\n  compact: true,\n  customAttribution: \"obrazový podkres <a target=\\\"_blank\\\" href=\\\"https://samizdat.cz\\\">Samizdat</a>, data <a target=\\\"_blank\\\" href=\\\"http://vdp.cuzk.cz/\\\">ČÚZK</a>\"\n}));\nmap.scrollZoom.disable(); // zoom myší teprve až po interakci s mapou\n\nmap.on('click', function (e) {\n  map.scrollZoom.enable();\n});\nmap.addControl(new mapboxgl.NavigationControl(), 'top-left'); // buttonky pro zoom a rotaci\n\nmap.on(\"load\", function () {\n  map.addLayer({\n    // pridat vrstvu domu\n    id: \"barakygeojson\",\n    type: \"fill\",\n    source: {\n      type: \"vector\",\n      tiles: [\"https://data.irozhlas.cz/mapa-domu/tiles/{z}/{x}/{y}.pbf\"]\n    },\n    \"source-layer\": \"barakygeojson\",\n    paint: {\n      // \"fill-color\": \"black\",\n      \"fill-opacity\": [\"interpolate\", [\"linear\"], [\"zoom\"], 10, 0.5, 10.1, 1],\n      \"fill-outline-color\": \"hsl(0, 0%, 52%)\"\n    }\n  });\n  map.addLayer({\n    id: \"labels\",\n    source: {\n      tiles: [\"https://interaktivni.rozhlas.cz/tiles/ton_l2/{z}/{x}/{y}.png\"],\n      type: \"raster\",\n      tileSize: 256\n    },\n    type: \"raster\"\n  });\n});\n$(\"#inp-geocode\").on(\"focus input\", function () {\n  return $(\"#inp-geocode\").css(\"border-color\", \"black\");\n}); // geocoder\n\nvar form = document.getElementById(\"frm-geocode\");\n\nform.onsubmit = function submitForm(event) {\n  event.preventDefault();\n  var text = document.getElementById(\"inp-geocode\").value;\n\n  if (text === \"\") {\n    map.flyTo({\n      center: [15.3350758, 49.7417517],\n      zoom: 7\n    });\n  } else {\n    $.get(\"https://api.mapy.cz/geocode?query=\".concat(text), function (data) {\n      console.log($(data).find(\"item\"));\n\n      if (typeof $(data).find(\"item\").attr(\"x\") === \"undefined\") {\n        $(\"#inp-geocode\").css(\"border-color\", \"red\");\n        return;\n      }\n\n      var x = parseFloat($(data).find(\"item\").attr(\"x\"));\n      var y = parseFloat($(data).find(\"item\").attr(\"y\"));\n\n      if (x < 12 || x > 19 || y < 48 || y > 52) {\n        // omezení geosearche na česko, plus mínus\n        $(\"#inp-geocode\").css(\"border-color\", \"red\");\n        return;\n      }\n\n      map.flyTo({\n        center: [x, y],\n        zoom: 12\n      });\n    }, \"xml\");\n  }\n};\n\n//# sourceURL=webpack:///./js/script.js?");
+
+/***/ }),
+
+/***/ "./js/targetblank.js":
+/*!***************************!*\
+  !*** ./js/targetblank.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("document.addEventListener(\"DOMContentLoaded\", function () {\n  var links = document.getElementsByTagName(\"a\");\n  Array.prototype.forEach.call(links, function (link) {\n    if (link.hostname !== window.location.hostname) {\n      link.target = \"_blank\";\n      link.rel = \"noopener noreferrer\";\n    }\n  });\n});\n\n//# sourceURL=webpack:///./js/targetblank.js?");
+
+/***/ })
+
+/******/ });</script>
 		</article>
 			<div class="wrapper">
 				<div class="row-main">
