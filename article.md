@@ -1,5 +1,5 @@
-title: "Čtyři milióny staveb. Podívejte se na mapu všech budov v Česku"
-perex: "Na jednoho obyvatele připadají v Česku více než dvě stavby. Projděte si v unikátní mapě, jak zástavba tvoří tvář země, jak krajina ovlivňuje růst vesnic i jak sídliště zasáhla do historické podoby měst. Vybrané části mapy komentuje architekt Adam Gebrian."
+title: "Přes čtyři milióny staveb. Podívejte se na mapu všech budov v Česku"
+perex: "S nadsázkou lze říct, že na každou českou rodinu připadá jedna stavba. Celkem jsou jich více než čtyři milióny. Jaký tvoří celkový obraz? Projděte si v unikátní mapě, jak zástavba tvoří tvář země, jak krajina ovlivňuje růst vesnic i jak sídliště zasáhla do historické podoby měst. Vybrané části mapy komentuje architekt Adam Gebrian."
 published: "21. dubna 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
@@ -18,17 +18,24 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 	<div id="map" class="map"></div>
 </wide>
 
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
+# Česko zastavěné
+V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna budova. Zemi pokrývají přes čtyři milióny staveb. Patří mezi ně hypermarkety, sklady, rodinné domy, paneláky i kůlny a zahradní chatky. Dělí si je celkem 6 258 obcí.
 
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
+Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný [podobnou mapou Spojených států](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) vychází z českého katastru nemovitostí, který informace o budovách existuje.
 
-Mobilní operátor má [zákonnou povinnost](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
+Výsledná mapě se architektonické praxi říká _Schwarzplan_. 
 
-Operátoři ale obdobné informace mohou anonymizovat (tedy zbavit identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+</div><div>
+<img src="https://www.irozhlas.cz/sites/default/files/uploader/cesko_celek_190213-135401_zlo.png" width="100%">
+</wide>
+
+# Ostravská aglomerace
+
+# Vnitřní periferie
+Na mapě jsou zároveň vidět charakteristické vnitrobloky.
+
+# Potoční vesnice
+
+# Baťův Zlín
+
+# Těžební pustiny
