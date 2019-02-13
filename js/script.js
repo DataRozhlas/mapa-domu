@@ -1,10 +1,9 @@
 import "./targetblank"; // pro otvírání odkazů v novém okně
 
 // mapa
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2FtaXpkYXRjeiIsImEiOiJjam55a2V6NHgwY2N5M2twY3BqN3p0M2tqIn0.Neq0yohOIiIanf5T8FYhWQ';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'map_styl/style.json',
+    style: 'https://data.irozhlas.cz/mapa-domu/map_styl/style.json',
     zoom: 7,
     maxZoom: 15,
     pitch: 30,
@@ -28,7 +27,21 @@ map.on('load', function () {
         },
         "source-layer": "barakygeojson",
         "paint": {
-            "fill-color": "black"
+            //"fill-color": "black",
+            "fill-opacity": [
+              "interpolate",
+              [
+                  "linear"
+              ],
+              [
+                  "zoom"
+              ],
+              10,
+              0.5,
+              10.1,
+              1
+          ],
+          "fill-outline-color": "hsl(0, 0%, 52%)"
         }
     });
 
