@@ -4,11 +4,12 @@ import "./targetblank"; // pro otvírání odkazů v novém okně
 const map = new mapboxgl.Map({
   container: "map",
   style: "https://data.irozhlas.cz/mapa-domu/map_styl/style.json",
-  zoom: 7,
+  zoom: 12,
   maxZoom: 15,
   pitch: 30,
   attributionControl: false,
-  center: [15.3350758, 49.7417517],
+  //center: [15.3350758, 49.7417517],
+  center: [14.4266722, 50.0814917], // Václavák
 });
 
 map.addControl(new mapboxgl.AttributionControl({

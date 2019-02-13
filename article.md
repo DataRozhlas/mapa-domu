@@ -1,5 +1,5 @@
 title: "Čtyři milióny staveb. Podívejte se na mapu všech budov v Česku"
-perex: "lorem ipsum"
+perex: "Na jednoho obyvatele připadají v Česku více než dvě stavby. Projděte si v unikátní mapě, jak zástavba tvoří tvář země, jak krajina ovlivňuje růst vesnic i jak historická města změnila sídlištní zástavba. Vybrané části mapy komentuje architekt Adam Gebrian."
 published: "21. dubna 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
@@ -11,7 +11,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <div id="mapdiv">
 <form action="?" id='frm-geocode'>
 	  <div class="inputs">
-	    <input type="text" id="inp-geocode" placeholder="Zadejte město či adresu...">
+	    <input type="text" id="inp-geocode" placeholder="Zadejte obec či adresu...">
 	    <input type="submit" id="inp-btn" value="Najít">
 	  </div>
 	</form>
