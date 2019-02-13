@@ -8,7 +8,7 @@ const map = new mapboxgl.Map({
   maxZoom: 15,
   pitch: 0,
   attributionControl: false,
-  //center: [15.3350758, 49.7417517],
+  // center: [15.3350758, 49.7417517],
   center: [14.4266722, 50.0814917], // Václavák
 });
 
@@ -18,11 +18,11 @@ map.addControl(new mapboxgl.AttributionControl({
 }));
 
 map.scrollZoom.disable(); // zoom myší teprve až po interakci s mapou
-map.on('click', function(e) {
+map.on("click", (e) => {
   map.scrollZoom.enable();
 });
 
-map.addControl(new mapboxgl.NavigationControl(), 'top-left'); // buttonky pro zoom a rotaci
+map.addControl(new mapboxgl.NavigationControl(), "top-left"); // buttonky pro zoom a rotaci
 
 
 map.on("load", () => {
@@ -87,7 +87,7 @@ form.onsubmit = function submitForm(event) {
       }
       const x = parseFloat($(data).find("item").attr("x"));
       const y = parseFloat($(data).find("item").attr("y"));
-      
+
       if (x < 12 || x > 19 || y < 48 || y > 52) { // omezení geosearche na česko, plus mínus
         $("#inp-geocode").css("border-color", "red");
         return;
