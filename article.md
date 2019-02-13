@@ -23,15 +23,17 @@ V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna
 
 Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný [podobnou mapou Spojených států](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) vychází z českého katastru nemovitostí, který informace o budovách existuje.
 
+</div><div>
+<img src="https://www.irozhlas.cz/sites/default/files/uploader/cesko_celek_190213-153839_zlo.jpg" width="100%">
+</wide>
+
 Výsledná mapa připomíná typ nákresů, kterým se v architektonické praxi říká _Schwarzplan_. Jsou na nich zakreslené pouze budovy a protože přehledně ukazují strukturu osídlení, využívají se k zobrazování nových návrhů ve stávajících územích. Naše verze _Schwarzplanu_ zahrnuje celé Česko a přidává mapové podklady pro lepší orientaci.
 
 Z mapy lze vyčíst mnohé: to, jak se liší vesnice podle toho, zda se utvořily okolo centrální návsi - _okrouhlice_ - nebo podél cesty, která jí prochází - _ulicovka_, to, jak k okrajům měst postupně přilepovala sídliště, nebo rozvrstvení obyvatel - od větších obcí na Jižní Moravě přes velký počet malých sídel na Vysočině.
 
-„Za srovnání stojí vždy starší kompaktní formy osídlení s těmi novými, kde je všude daleko. Zatímco u těch starých většinou rozpoznáte ulice a náměstí, u nové výstavby vidíte rozsypané zrní a vůbec nejste schopen číst, jak jsou utvářena veřejná prostranství. Chybí jim tvar a charakter,“ říká architekt Pavel Hnilička.
+Na jeden možný způsob, jak se na mapu dívat, upozorňuje architekt Pavel Hnilička, autor knihy [Sídelní kaše](http://nakladatelstvi.hostbrno.cz/nakladatelstvi/popularne-naucna/sidelni-kase-699). „Za srovnání stojí vždy starší kompaktní formy osídlení s těmi novými, kde je všude daleko,“ říká. „Zatímco u těch starých většinou rozpoznáte ulice a náměstí, u nové výstavby vidíte rozsypané zrní a vůbec nejste schopen číst, jak jsou utvářena veřejná prostranství. Chybí jim tvar a charakter.“
 
-</div><div>
-<img src="https://www.irozhlas.cz/sites/default/files/uploader/cesko_celek_190213-135401_zlo.png" width="100%">
-</wide>
+Spolu s architektem Adamem Gebrianem jsme vybrali některé části mapy, které stojí za pozornost a ukazují specifičnost českého urbanismu. Patří mezi ně překvapivě hustě zastavěné Ostravsko i místa stavebního klidu, kterými nejsou především chráněné krajinné oblasti nebo národní parky, ale těžební pánve.
 
 # Ostravská aglomerace
 
