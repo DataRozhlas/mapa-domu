@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
   style: "https://data.irozhlas.cz/mapa-domu/map_styl/style.json",
   zoom: 13,
   maxZoom: 15,
-  pitch: 0,
+  pitch: window.location.href.includes("?nahni") ? 30 : 0,
   attributionControl: false,
   // center: [15.3350758, 49.7417517],
   center: [14.4266722, 50.0814917], // Václavák
@@ -80,7 +80,6 @@ form.onsubmit = function submitForm(event) {
     });
   } else {
     $.get(`https://api.mapy.cz/geocode?query=${text}`, (data) => {
-      console.log($(data).find("item"));
       if (typeof $(data).find("item").attr("x") === "undefined") {
         $("#inp-geocode").css("border-color", "red");
         return;

@@ -21,7 +21,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 # Česko zastavěné
 V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna budova. Zemi pokrývají přes čtyři milióny staveb. Patří mezi ně hypermarkety, sklady, rodinné domy, paneláky i kůlny a zahradní chatky. Dělí si je celkem 6 258 obcí.
 
-Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný [podobnou mapou Spojených států](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) vychází z českého katastru nemovitostí, který informace o budovách existuje.
+Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný [podobnou mapou Spojených států](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) vychází z českého katastru nemovitostí, který informace o budovách eviduje.
 
 </div><div>
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/cesko_celek_190213-153839_zlo.jpg" width="100%">
@@ -40,7 +40,7 @@ Spolu s Adamem Gebrianem jsme vybrali některé části mapy, které stojí za p
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/ostrava_190213-155615_zlo.jpg" width="100%" style="margin-bottom: 20px">
 </wide>
 
-Ostravsko na mapě působí jako jedno velké město. S okolními českými městy - Karvinou, Havířovem nebo Bohumínem - ale i s městy na polské a slovenské straně tvoří nadnárodní region, kde žije na pět miliónů obyvatel. Jak upozorňuje Adam Gebrian, stejně velká oblast kolem Prahy čítá jen necelé dva miliony lidí. „Ostrava je srostlice třiadvaceti dolů a třiadvaceti dělnických částí kolem nich. Podobně jako třeba Los Angeles není městem rostoucím z jednoho centra, ale vyvíjí se z mnoha míst, které se postupně rozšiřují a prorůstají.“
+Ostravsko na mapě působí jako jedno velké město. S okolními českými městy - Karvinou, Havířovem nebo Bohumínem - ale i s městy na polské a slovenské straně tvoří nadnárodní region, kde žije na pět milionů obyvatel. Jak upozorňuje Gebrian, stejně velká oblast kolem Prahy čítá jen necelé dva miliony lidí. „Ostrava je srostlice třiadvaceti dolů a třiadvaceti dělnických částí kolem nich. Podobně jako třeba Los Angeles není městem rostoucím z jednoho centra, ale vyvíjí se z mnoha míst, které se postupně rozšiřují a prorůstají.“
 
 „Představu českého města máme zažitou: uprostřed je historické jádro s náměstím, za ním vrstva devatenáctého století, pak paneláky a satelity. Platí to pro skoro všechna města, ale pro Ostravu ne. Má jiný typ struktury, která je ale pro budoucnost možná výhodnější než třeba pražská. Vysoké individualizaci, práci z domova nebo autonomním autům se tradiční města pravděpodobně budou přizpůsobovat daleko hůř.“
 
@@ -49,7 +49,7 @@ Ostravsko na mapě působí jako jedno velké město. S okolními českými měs
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/trutnov_190213-161606_zlo.jpg" width="100%" style="margin-bottom: 20px">
 </wide>
 
-Vesnice a města často vznikají a rozšiřují se podél potoků a řek. Velmi výrazně je tok řeky patrný třeba na Trutnovu na řece Úpě, zobrazenému na mapě výše. Adam Gebrian upozorňuje, že kromě takových „měst na řece“ existují také „města u řeky“. 
+Vesnice a města často vznikají a rozšiřují se podél potoků a řek. Velmi výrazně je tok řeky patrný třeba na Trutnovu na řece Úpě, zobrazeném na mapě výše. Adam Gebrian upozorňuje, že kromě takových „měst na řece“ existují také „města u řeky“. 
 
 Jedním takovým městem jsou třeba České Budějovice. Jejich historické jádro neleží na soutoku Vltavy a Malše, které jimi protékají, ale řeky tečou okolo centra. „Myšlenka je jednoduchá: řeka je nebezpečná, způsobuje povodně, je dobré mít k ní přístup, ale nenechat ji téct středem,“ dodává Gebrian.
 
@@ -58,7 +58,7 @@ Jedním takovým městem jsou třeba České Budějovice. Jejich historické já
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/zlin_190213-164522_zlo.jpg" width="100%" style="margin-bottom: 20px">
 </wide>
 
-Zlín, původně několikatisícová obec, ze které za první republiky udělal podnikatel Tomáš Baťa tovární město, je nejen v Česku v mnoha ohledech jedinečný. „Zlín je extrémem nízké hustoty, celé město je vlastně sídliště. Je v něm jen několik málo ulic, spíš jde o sestavu objektů,“ říká Adam Gebrian, který ve městě vyrůstal.
+Zlín, původně několikatisícová obec, ze které za první republiky udělal podnikatel Tomáš Baťa tovární město, je nejen v Česku v mnoha ohledech jedinečný. „Zlín je extrémem nízké hustoty, celé město je vlastně sídliště. Je v něm jen několik málo ulic, spíš jde o sestavu objektů,“ říká Gebrian, který ve městě vyrůstal.
 
 „Můžeme si všimnout mnoha zajímavostí, třeba domů, které nejsou postaveny souměrně, ale došikma. Baťa je totiž nechal stavět po vrstevnici - byl to nejjednodušší a nejlevnější způsob. Poblíž továrny ve středu města jsou také vidět stovky domků v dělnických koloniích, na východě sídliště postavené podobně - po jednotlivých domech, ne po dlouhých řadách. V mapě je jednoznačeně propsané Baťovo krédo: pracovat společně, bydlet individuálně.“
 
@@ -67,7 +67,7 @@ Zlín, původně několikatisícová obec, ze které za první republiky udělal
 <img src="https://www.irozhlas.cz/sites/default/files/uploader/most_190213-163340_zlo.jpg" width="100%" style="margin-bottom: 20px">
 </wide>
 
-Na některých částech mapy jsou patrná rozsáhlé prázdné plochy. „Ukazuje se série míst, které můžeme nazvat státní divočinou. Pokud jsou lidé, kteří neradi vídají domy, mapa jim pomůže najít místa, kde jich je skutečně málo,“ říká Gebrian. 
+Na některých částech mapy jsou patrné rozsáhlé prázdné plochy. „Ukazuje se série míst, která můžeme nazvat státní divočinou. Lidem, kteří neradi vídají domy, pomůže mapa najít místa, kde jich je skutečně málo,“ říká Gebrian. 
 
 Může jít o národní parky nebo vojenské újezdy, které zabírají území okolo Karlových Varů nebo Vyškova. V některých případech, jako v okolí severočeského Mostu (na mapě vpravo dole), jde ale o následky těžkého průmyslu. Most ze západu a severovýchodu obklopují uhelné pánve. Na severu navíc sousedí s areálem Unipetrolu, největší chemičkou v Česku. 
 
