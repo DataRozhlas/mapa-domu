@@ -1,5 +1,5 @@
-title: "Přes čtyři milióny staveb. Podívejte se na mapu všech budov v Česku"
-perex: "S nadsázkou lze říct, že na každou českou rodinu připadá jedna stavba. Celkem jsou jich více než čtyři milióny. Jaký tvoří celkový obraz? Projděte si v unikátní mapě, jak zástavba tvoří tvář země, jak krajina ovlivňuje růst vesnic i jak sídliště zasáhla do historické podoby měst. Vybrané části mapy komentuje architekt Adam Gebrian."
+title: "Přes čtyři miliony staveb. Podívejte se na mapu všech budov v Česku"
+perex: "S nadsázkou lze říct, že na každou českou rodinu připadá jedna stavba. Celkem jsou jich více než čtyři miliony. Jaký tvoří celkový obraz? Projděte si v unikátní mapě, kterou sestavili z dat katastru nemovitostí datoví novináři iROZHLAS.cz, jakou vytváří zástavba tvář země, jak krajina ovlivňuje růst vesnic i jak sídliště zasáhla do historické podoby měst. Vybrané části mapy komentuje architekt Adam Gebrian."
 published: "14. února 2019"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
@@ -19,7 +19,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 </wide>
 
 # Česko zastavěné
-V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna budova. Zemi pokrývají přes čtyři milióny staveb. Patří mezi ně hypermarkety, sklady, rodinné domy, paneláky i kůlny a zahradní chatky. Dělí si je celkem 6 258 obcí.
+V Česku téměř nelze najít místo, z něhož by nebyla vidět alespoň jedna budova. Zemi pokrývají přes čtyři miliony staveb. Patří mezi ně hypermarkety, sklady, rodinné domy, paneláky i kůlny a zahradní chatky. Dělí si je celkem 6 258 obcí.
 
 Zatímco mapy obvykle používáme jen jako prostředek k navigaci, mohou sloužit i k odhalení celkového obrazu a souvislostí, které jsou člověku jinak utajeny. Právě k tomu má sloužit mapa všech staveb, které v Česku stojí. Projekt inspirovaný [podobnou mapou Spojených států](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) vychází z českého katastru nemovitostí, který informace o budovách eviduje.
 

@@ -86,7 +86,6 @@ form.onsubmit = function submitForm(event) {
       }
       const x = parseFloat($(data).find("item").attr("x"));
       const y = parseFloat($(data).find("item").attr("y"));
-
       if (x < 12 || x > 19 || y < 48 || y > 52) { // omezení geosearche na česko, plus mínus
         $("#inp-geocode").css("border-color", "red");
         return;
