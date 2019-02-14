@@ -64,6 +64,17 @@ map.on("load", () => {
     },
     type: "raster",
   });
+
+  if (window.location.href.includes("latlng")){ //posunuti mapy dle url
+    var ll = window.location.href.split("latlng=")[1].split('&')[0];
+    map.setCenter([parseFloat(ll.split('|')[1]), parseFloat(ll.split('|')[0])]);
+    map.setZoom(parseInt(ll.split('|')[2]));
+  };
+});
+
+map.on('moveend', function(e) { // poloha do url pro sdileni
+  var cen = map.getCenter().wrap();
+  window.history.pushState('', '', window.location.pathname + '?latlng=' + cen.lat + '|' + cen.lng + '|' + map.getZoom());
 });
 
 $("#inp-geocode").on("focus input", () => $("#inp-geocode").css("border-color", "black"));
